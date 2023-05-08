@@ -1,3 +1,4 @@
+![plot](./Conceptual Model.png)
 # Functional diversity of riverine DOM is related to catchment size
 Within this repository, we have the scripts and processed versions of the data necessary to replicate the analyses performed within the manuscript titled "Riverine organic matter functional diversity increases with catchment size". Below, you will find a brief description of each of the files:
 - <b>RC2_Analysis_Final.R</b> is the key script for generating the results presented in the manuscript including calculating Rao's functional diversity. Notable exclusions in this script include: the transformation analysis and the metabolite/DOM dendrogram creation script which can both be found <a href="https://github.com/danczakre/Meta-Metabolome_Ecology">here</a>. General usage is to point to the directory for the files found in the Data for Manuscript.zip and modify the dist.to.cram() function to point to the Hertkorn_CRAM_DB.csv described below.
